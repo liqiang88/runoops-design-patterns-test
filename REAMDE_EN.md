@@ -29,7 +29,17 @@ src/main/java/com/runoops/patterns/
 ├── mediator/          # Mediator (chat room forwarding + Demo)
 ├── observer/          # Observer (weather station notifications + Demo)
 ├── interpreter/       # Interpreter (add/subtract expression tree + Demo)
-└── mvc/               # MVC architectural pattern (user query layers + Demo)
+├── mvc/               # MVC architectural pattern (user query layers + Demo)
+├── dao/               # DAO (persistence isolation + Demo)
+├── businessdelegate/  # Business Delegate (presentation / business decoupling + Demo)
+├── compositeentity/   # Composite Entity (coarse-grained user entity + Demo)
+├── frontcontroller/   # Front Controller (unified entry + dispatch + Demo)
+├── interceptingfilter/# Intercepting Filter (filter chain preprocessing + Demo)
+├── servicelocator/    # Service Locator (service lookup cache + Demo)
+├── transferobject/    # Transfer Object (DTO cross-layer transfer + Demo)
+├── sessionfacade/     # Session Facade (order business orchestration + Demo)
+├── viewhelper/        # View Helper (list data formatting + Demo)
+└── compositeview/     # Composite View (page fragment assembly + Demo)
 ```
 
 ## Requirements
@@ -191,6 +201,66 @@ MVC:
 mvn -q exec:java "-Dexec.mainClass=com.runoops.patterns.mvc.MvcDemo"
 ```
 
+DAO:
+
+```powershell
+mvn -q exec:java "-Dexec.mainClass=com.runoops.patterns.dao.DaoDemo"
+```
+
+Business Delegate:
+
+```powershell
+mvn -q exec:java "-Dexec.mainClass=com.runoops.patterns.businessdelegate.BusinessDelegateDemo"
+```
+
+Composite Entity:
+
+```powershell
+mvn -q exec:java "-Dexec.mainClass=com.runoops.patterns.compositeentity.CompositeEntityDemo"
+```
+
+Front Controller:
+
+```powershell
+mvn -q exec:java "-Dexec.mainClass=com.runoops.patterns.frontcontroller.FrontControllerDemo"
+```
+
+Intercepting Filter:
+
+```powershell
+mvn -q exec:java "-Dexec.mainClass=com.runoops.patterns.interceptingfilter.InterceptingFilterDemo"
+```
+
+Service Locator:
+
+```powershell
+mvn -q exec:java "-Dexec.mainClass=com.runoops.patterns.servicelocator.ServiceLocatorDemo"
+```
+
+Transfer Object:
+
+```powershell
+mvn -q exec:java "-Dexec.mainClass=com.runoops.patterns.transferobject.TransferObjectDemo"
+```
+
+Session Facade:
+
+```powershell
+mvn -q exec:java "-Dexec.mainClass=com.runoops.patterns.sessionfacade.SessionFacadeDemo"
+```
+
+View Helper:
+
+```powershell
+mvn -q exec:java "-Dexec.mainClass=com.runoops.patterns.viewhelper.ViewHelperDemo"
+```
+
+Composite View:
+
+```powershell
+mvn -q exec:java "-Dexec.mainClass=com.runoops.patterns.compositeview.CompositeViewDemo"
+```
+
 ## Related Articles
 
 - [Singleton](https://runoops.com/design-patterns-singleton.html)
@@ -217,3 +287,13 @@ mvn -q exec:java "-Dexec.mainClass=com.runoops.patterns.mvc.MvcDemo"
 - [Observer](https://runoops.com/design-patterns-observer.html)
 - [Interpreter](https://runoops.com/design-patterns-interpreter.html)
 - [MVC](https://runoops.com/architectural-pattern-mvc.html)
+- [DAO](https://runoops.com/design-patterns-dao.html)
+- [Business Delegate](https://runoops.com/design-patterns-business-delegate.html)
+- [Composite Entity](https://runoops.com/design-patterns-composite-entiy.html)
+- [Front Controller](https://runoops.com/design-patterns-front-controller.html)
+- [Intercepting Filter](https://runoops.com/design-patterns-intercepting-filter.html)
+- [Service Locator](https://runoops.com/design-patterns-service-locator.html)
+- [Transfer Object](https://runoops.com/design-patterns-transer-object.html)
+- [Session Facade](https://runoops.com/design-patterns-session-facede.html)
+- [View Helper](https://runoops.com/design-patterns-view-helper.html)
+- [Composite View](https://runoops.com/design-patterns-composite-view.html)
